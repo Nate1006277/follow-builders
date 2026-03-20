@@ -1,11 +1,6 @@
 ---
 name: follow-builders
-description: AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Use when the user wants AI industry insights, builder updates, or invokes /ai.
-metadata:
-  openclaw:
-    requires:
-      bins:
-        - node
+description: AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Use when the user wants AI industry insights, builder updates, or invokes /ai. No API keys or dependencies required — all content is fetched from a central feed.
 ---
 
 # Follow Builders, Not Influencers
@@ -15,6 +10,10 @@ actually building products, running companies, and doing research — and delive
 digestible summaries of what they're saying.
 
 Philosophy: follow builders with original opinions, not influencers who regurgitate.
+
+**No API keys or environment variables are required from users.** All content
+(X/Twitter posts and YouTube transcripts) is fetched centrally and served via
+a public feed. Users only need API keys if they choose Telegram or email delivery.
 
 ## Detecting Platform
 
