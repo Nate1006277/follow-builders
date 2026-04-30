@@ -8,7 +8,6 @@
 import { readFile } from 'fs/promises';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import fetch from 'node-fetch';
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 
